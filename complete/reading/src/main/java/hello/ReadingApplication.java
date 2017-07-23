@@ -27,6 +27,14 @@ public class ReadingApplication {
   public String toRead() {
     return bookService.readingList();
   }
+  /***
+  public String readingList() {
+    RestTemplate restTemplate = new RestTemplate();
+    URI uri = URI.create("http://localhost:8090/recommended");
+
+    return restTemplate.getForObject(uri, String.class);
+  }
+  ***/
 
   public static void main(String[] args) {
     SpringApplication.run(ReadingApplication.class, args);

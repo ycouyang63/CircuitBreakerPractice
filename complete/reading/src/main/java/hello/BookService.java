@@ -23,7 +23,7 @@ public class BookService {
   }
 
   public String reliable() {
-    return "Cloud Native Java (O'Reilly)";
+    return "Cloud Native Java (O'Reilly): Circuit-Breaker effect";
   }
 
 }
